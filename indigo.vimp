@@ -73,6 +73,33 @@ hi HintElem             background-color: #d0d0f0; color: #1c1c1c;
 hi HintActive           background-color: #5566bb; color: #dddded;
 hi HintImage            opacity: .5;
 
-style -name indigo-liberator-customize-toolbar chrome://* #liberator-customize-toolbar, #liberator-customize-toolbar > * { border: none !important; background: transparent !important; -moz-appearance: none !important; }
+js <<EOM
+var css = <css><![CDATA[
+#liberator-customize-toolbar {
+    -moz-box-align: center !important;
+    -moz-box-pack: center !important;
+    -moz-appearance: none !important;
+}
+
+#liberator-customize-toolbar toolbarbutton,
+#liberator-customize-toolbar statusbarpanel {
+    padding: 0 0 0 2px !important;
+}
+
+#feed-button {
+    list-style-image: url("chrome://browser/skin/feeds/feedIcon16.png") !important;
+    -moz-image-region: auto !important;
+    border: none !important;
+    min-width: 0 !important;
+}
+
+/* sbmcommentsviewer.js */
+.liberator-sbmcommentsviewer-content {
+    padding: 0 !important;
+    border: none !important;
+}
+]]></css>.toString();
+styles.addSheet(false, "indigo-customize-toolbar", "chrome://*", css, false);
+EOM
 
 " vim: ft=vimperator
