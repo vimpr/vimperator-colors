@@ -3,6 +3,7 @@
 " author: mashiro
 " ==/VimperatorColorSchema==
 
+" Highlights {{{1
 hi Boolean              color: orchid;
 hi Function             color: skyblue;
 hi Null                 color: cornflowerblue;
@@ -67,39 +68,35 @@ hi URL:hover            text-decoration: underline; cursor: pointer;
 hi FrameIndicator       background-color: red; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 
 hi Bell                 border: none; background-color: #d0d0d0;
-hi Hint                 font-family: monospace; font-size: 14px; font-weight: normal; color: #dddddd; background-color: #1c1c1c; border: none; padding: 0px 3px;
+hi Hint                 font-family: monospace; font-size: 14px; font-weight: normal; color: #dddddd; background-color: #1c1c1c; border: none; margin: -0.7em 0 0 -0.7em; padding: 0px 5px;
 hi Hint::after          content: attr(number);
-hi HintElem             background-color: #d0d0f0; color: #1c1c1c;
-hi HintActive           background-color: #5566bb; color: #dddded;
+hi HintElem             background-color: rgba(208, 208, 240, 0.8); color: #1c1c1c;
+hi HintActive           background-color: rgba( 85, 102, 187, 0.8); color: #dddded;
 hi HintImage            opacity: .5;
 
-js <<EOM
-var css = <css><![CDATA[
-#liberator-customize-toolbar {
-    -moz-box-align: center !important;
-    -moz-box-pack: center !important;
-    -moz-appearance: none !important;
-}
+" 影(重かったらコメントアウト) {{{2
+hi -append Hint         background-color: rgba(28, 28, 28, 0.8); border: 1px solid #1c1c1c; -moz-border-radius: 4px; -moz-box-shadow: 0px 0px 1px black; text-shadow: 1px 1px 2px black;
+hi -append HintElem     text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #0c0c0c;
+hi -append HintActive   text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #0c0c0c;
+" }}}2
+" }}}1
 
-#liberator-customize-toolbar toolbarbutton,
-#liberator-customize-toolbar statusbarpanel {
-    padding: 0 0 0 2px !important;
-}
-
-#feed-button {
-    list-style-image: url("chrome://browser/skin/feeds/feedIcon16.png") !important;
-    -moz-image-region: auto !important;
-    border: none !important;
-    min-width: 0 !important;
-}
-
-/* sbmcommentsviewer.js */
-.liberator-sbmcommentsviewer-content {
-    padding: 0 !important;
-    border: none !important;
-}
-]]></css>.toString();
-styles.addSheet(false, "indigo-customize-toolbar", "chrome://*", css, false);
+" Styles {{{1
+style -name indigo-feed-button chrome://* <<EOM
+    #feed-button {
+        list-style-image: url("chrome://browser/skin/feeds/feedIcon16.png") !important;
+        -moz-image-region: auto !important;
+        border: none !important;
+        min-width: 0 !important;
+    }
 EOM
+
+style -name indigo-sbmcommentsviewer chrome://* <<EOM
+    .liberator-sbmcommentsviewer-content {
+        padding: 0 !important;
+        border: none !important;
+    }
+EOM
+" }}}1
 
 " vim: ft=vimperator
