@@ -34,9 +34,9 @@ hi -append HintElem     text-decoration: none; -moz-border-radius: 4px; -moz-box
 hi -append HintActive   text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #002b36;
 
 hi StatusLine     color: #002b36; background: #002b36; font-weight: normal; font-size: 12pt;
-hi StatusLineBroken   color:  #93a1a1; background: #ffffd7; font-weight: normal; font-size: 12pt;
-hi StatusLineExtended color:  #93a1a1; background: #af005f; font-weight: normal; font-size: 12pt;
-hi StatusLineSecure   color:  #93a1a1; background: #b58900; font-weight: normal; font-size: 12pt;
+" hi StatusLineBroken   color:  #93a1a1; background: #ffffd7; font-weight: normal; font-size: 12pt;
+" hi StatusLineExtended color:  #93a1a1; background: #af005f; font-weight: normal; font-size: 12pt;
+" hi StatusLineSecure   color:  #93a1a1; background: #b58900; font-weight: normal; font-size: 12pt;
 
 hi Normal     color:  #93a1a1;  background: #002b36; font-size: 12pt; opacity: 0.9;
 hi CmdLine    color:  #93a1a1;  background: #002b36; font-size: 14pt;

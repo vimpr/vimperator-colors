@@ -64,7 +64,7 @@ hi String					color: #0c0;
 " Used in "Press ENTER..." of `jumps` or `bmarks`, or "Follow Hint..." or `f`
 hi Question					color: #080; background: #222; font-weight: bold; -moz-border-radius: 5px; padding-left: 5px;
 
-hi Search					color: #333; background-color: #cc0; font-size: inherit; padding: 0; padding: 0;
+" hi Search					color: #333; background-color: #cc0; font-size: inherit; padding: 0; padding: 0;
 
 hi StatusLine				color: #ddc; background: #333; font-family: Inconsolata; font-size: 14px; margin-top: 1px;
 

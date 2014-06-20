@@ -16,16 +16,16 @@ highlight CompItem           padding: 0 0; font-family: "DejaVu Sans Mono", mono
 highlight CompItem[selected] background-color: #DDD;
 highlight CompDesc           color: #888;
 " highlight CompMsg
-highlight Gradient           background-color: #FFF;
-highlight GradientLeft       background-color: #FFF;
-highlight GradientRight      background-color: #FFF;
+" highlight Gradient           background-color: #FFF;
+" highlight GradientLeft       background-color: #FFF;
+" highlight GradientRight      background-color: #FFF;
 
 highlight ErrorMsg background-color: #E00; color: #F5F5F5;
 highlight Filter font-weight: bold; color: #000;
 
 highlight StatusLine       font-size: 12px; font-weight: normal; color: #222; background: #EEE;
-highlight StatusLineBroken font-size: 12px; font-weight: normal; color: #222; background: #FDD;
-highlight StatusLineSecure font-size: 12px; font-weight: normal; color: #222; background: #DDF;
+" highlight StatusLineBroken font-size: 12px; font-weight: normal; color: #222; background: #FDD;
+" highlight StatusLineSecure font-size: 12px; font-weight: normal; color: #222; background: #DDF;
 " highlight StatusLine       font-size: 12px; font-weight: normal; color: #EEE; background: #111;
 " highlight StatusLineBroken font-size: 12px; font-weight: normal; color: #EEE; background: #311;
 " highlight StatusLineSecure font-size: 12px; font-weight: normal; color: #EEE; background: #114;

@@ -30,10 +30,10 @@ hi CompIcon>img				max-width: 16px; max-height: 16px; vertical-align: middle;
 hi CompItem				color: #f6bfbc;
 hi CompItem>*				padding: 0 .5ex;
 hi CompItem[selected]			color: white; background: #302833;
-hi CompLess				text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
-hi CompLess::after			content: "\2303"; /* Unicode up arrowhead */
-hi CompMore				text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
-hi CompMore::after			content: "\2304"; /* Unicode down arrowhead */
+" hi CompLess				text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
+" hi CompLess::after			content: "\2303"; /* Unicode up arrowhead */
+" hi CompMore				text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
+" hi CompMore::after			content: "\2304"; /* Unicode down arrowhead */
 hi CompMsg				font-style: italic; margin-left: 16px;
 hi CompResult				width: 45%; overfloaw: hidden;
 hi CompTitle				color: magenta; background: #302833; font-weight: bold;
@@ -42,9 +42,9 @@ hi ErrorMsg				color: white; background: red; font-weight: bold;
 hi Filter				font-weight: bold;
 hi FrameIndicator			background-color: red; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 hi Function				color: #59b9c6;
-hi Gradient				height: 1px; margin-bottom: -1px; margin-top: -1px;
-hi GradientLeft				background-color: magenta;
-hi GradientRight			background-color: #432f2f;
+" hi Gradient				height: 1px; margin-bottom: -1px; margin-top: -1px;
+" hi GradientLeft				background-color: magenta;
+" hi GradientRight			background-color: #432f2f;
 hi Hint					font-family: monospace; font-size: 18px; font-weight: normal; color: #ede4cd; background-color: #302833; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 3px 5px; /* CL MUSHIGURI_iRO BG:KUROBENI */
 hi Hint::after				content: attr(hintchar);
 hi HintActive				background: #aacf53; color: #white; /* CL:MOEGI */
@@ -66,18 +66,18 @@ hi Number				color: #38a1db; /* TSUYUKUSA_IRO */
 hi Object				color: #e9546b;
 hi Preview				color: gray;
 hi Question				color: #aacf53; background: #432f2f; font-weight: bold;
-hi Search				font-size: inherit; padding: 0; color: black; background-color: yellow; padding: 0;
+" hi Search				font-size: inherit; padding: 0; color: black; background-color: yellow; padding: 0;
 
 hi StatusLine				font-size: 15px; color: #aacf53; background: #302833; /* CL:MOEGI BG:KUROBENI */
-hi StatusLineBroken			color: black; background: #FF6060; /* light-red */
-hi StatusLineSecure			color: black; background: #B0FF00; /* light-green */
+" hi StatusLineBroken			color: black; background: #FF6060; /* light-red */
+" hi StatusLineSecure			color: black; background: #B0FF00; /* light-green */
 
 hi String				color: #aacf53;
-hi TabClose				
-hi TabIcon				
-hi TabIconNumber			font-weight: normal; font-size: 12px; color: white; text-align: center; text-shadow: black -1px 0 1px, black 0 1px 1px, black 1px 0 1px, black 0 -1px 1px;
+" hi TabClose				
+" hi TabIcon				
+" hi TabIconNumber			font-weight: normal; font-size: 12px; color: white; text-align: center; text-shadow: black -1px 0 1px, black 0 1px 1px, black 1px 0 1px, black 0 -1px 1px;
 hi TabNumber				font-weight: bold; font-size: 12px; color: white; margin: 0;
-hi TabText				
+" hi TabText				
 hi Tag					color: #38a1db;
 hi Title				color: magenta; background: #302833; font-weight: bold;
 hi URL					text-decoration: none; color: #aacf53; background: inherit;

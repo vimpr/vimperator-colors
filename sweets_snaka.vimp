@@ -12,9 +12,9 @@ hi -append HintElem     text-decoration: none; -moz-border-radius: 4px; -moz-box
 hi -append HintActive   text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #0c0c0c;
 
 hi StatusLine     color:  CornflowerBlue; background: #000; font-weight: normal; font-size: 12pt;
-hi StatusLineBroken   color:  black; background: #ffa0a0; font-weight: normal; font-size: 12pt;
-hi StatusLineExtended color:  black; background: #a0ffa0; font-weight: normal; font-size: 12pt;
-hi StatusLineSecure   color:  black; background: #a0a0ff; font-weight: normal; font-size: 12pt;
+" hi StatusLineBroken   color:  black; background: #ffa0a0; font-weight: normal; font-size: 12pt;
+" hi StatusLineExtended color:  black; background: #a0ffa0; font-weight: normal; font-size: 12pt;
+" hi StatusLineSecure   color:  black; background: #a0a0ff; font-weight: normal; font-size: 12pt;
 
 hi Normal     color:  LightYellow;  background: Black; font-size: 12pt; opacity: 0.7;
 hi CmdLine    color:  LightYellow;  background: Black; font-size: 14pt;
