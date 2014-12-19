@@ -20,7 +20,7 @@ hi CompMsg              font-style: italic; margin-left: 16px;
 hi CompResult           width: 45%; overflow: hidden;font-size: 10pt; font-family: monospace; font-weight: normal;
 hi CompTitle            color: #afafaf; background: #222222; font-weight: bold;
 hi CompTitle>*          padding: 0 .5ex;
-hi Filter               font-weight: bold;color: #afafaf;
+hi Filter               font-weight: bold;color: black; background: white; border-radius: 2px; 
 
 "When using tab complete in CmdLine, line separating Title from function and description
 " hi Gradient             height: 1px; margin-bottom: -1px; margin-top: -1px;
