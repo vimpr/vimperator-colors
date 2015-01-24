@@ -33,7 +33,7 @@ hi -append Hint         background-color: rgba(253, 246, 227, 0.7); border: 1px 
 hi -append HintElem     text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #002b36;
 hi -append HintActive   text-decoration: none; -moz-border-radius: 4px; -moz-box-shadow: 0 0 2px #002b36;
 
-hi StatusLine     color: #002b36; background: #002b36; font-weight: normal; font-size: 12pt;
+hi StatusLine     color: #93a1a1; background: #002b36; font-weight: normal; font-size: 12pt;
 " hi StatusLineBroken   color:  #93a1a1; background: #ffffd7; font-weight: normal; font-size: 12pt;
 " hi StatusLineExtended color:  #93a1a1; background: #af005f; font-weight: normal; font-size: 12pt;
 " hi StatusLineSecure   color:  #93a1a1; background: #b58900; font-weight: normal; font-size: 12pt;
